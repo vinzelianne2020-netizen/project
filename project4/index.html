@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEXUS - The Future of Motion | Premium Electric Vehicle</title>
+    <meta name="description" content="Meet NEXUS - sculpted performance, zero compromise, electrified luxury. Reserve your futuristic electric vehicle today. 0-100 km/h in 3.2s, 610km range.">
+    <meta name="keywords" content="electric car, futuristic vehicle, luxury car, NEXUS, autonomous driving, electric vehicle, premium car">
+    <meta name="author" content="NEXUS Motors">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="NEXUS - The Future of Motion">
+    <meta property="og:description" content="Sculpted performance. Zero compromise. Electrified luxury. Experience the future of automotive excellence.">
+    <meta property="og:image" content="./assets/hero-car.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="NEXUS - The Future of Motion">
+    <meta property="twitter:description" content="Sculpted performance. Zero compromise. Electrified luxury.">
+    <meta property="twitter:image" content="./assets/hero-car.jpg">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://nexus-motors.com">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">FERRARI</div>
+            <div class="nav-links">
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#specs" class="nav-link">Performance</a>
+                <a href="#configure" class="nav-link">Configure</a>
+                <a href="#configure" class="nav-link">Configure</a>
+            </div>
+            <button class="btn btn-primary" id="nav-reserve-btn">Reserve Now</button>
+            <div class="mobile-menu-toggle" id="mobile-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <!-- Background Grid -->
+        <div class="hero-grid"></div>
+        
+        <!-- Particles -->
+        <div class="particles" id="particles"></div>
+        
+        <!-- Main Content -->
+        <div class="hero-content">
+            <h1 class="hero-title">Ferrari</h1>
+            <p class="hero-subtitle">
+                Meet the Future of Motion. Sculpted performance. Zero compromise. Engine luxury.
+            </p>
+            
+            <!-- Car Image -->
+            <div class="hero-car">
+                <video class="config-car-video" autoplay muted loop playsinline>
+                               <source src="66.mp4" type="video/mp4">
+                            </video>
+                <div class="car-glow"></div>
+            </div>
+            
+            <!-- CTA Buttons -->
+            <div class="hero-cta">
+                <button class="btn btn-primary btn-large" id="hero-reserve-btn">Reserve Your Drive</button>
+                <button class="btn btn-outline btn-large" id="explore-btn">Explore Features</button>
+            </div>
+            
+            <!-- Specs Preview -->
+            <div class="hero-specs">
+                <div class="spec-item">
+                    <div class="spec-value">3.2s</div>
+                    <div class="spec-label">0–100 km/h</div>
+                </div>
+                <div class="spec-item">
+                    <div class="spec-value">610 km</div>
+                    <div class="spec-label">Range</div>
+                </div>
+                <div class="spec-item">
+                    <div class="spec-value">800V</div>
+                    <div class="spec-label">Charging</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Performance Specs -->
+    <section class="performance" id="specs">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Unleashed Performance</h2>
+                <p class="section-subtitle">Engineering excellence meets engine precision</p>
+            </div>
+            
+            <div class="specs-grid">
+                <div class="spec-card" data-animate>
+                    <div class="spec-icon">⚡</div>
+                    <div class="spec-number" data-target="3.2">0</div>
+                    <div class="spec-unit">s</div>
+                    <div class="spec-title">Acceleration</div>
+                    <div class="spec-desc">0-100 km/h</div>
+                </div>
+                
+                <div class="spec-card" data-animate>
+                    <div class="spec-icon">🏁</div>
+                    <div class="spec-number" data-target="250">0</div>
+                    <div class="spec-unit">km/h</div>
+                    <div class="spec-title">Top Speed</div>
+                </div>
+                
+                <div class="spec-card" data-animate>
+                    <div class="spec-icon">🔋</div>
+                    <div class="spec-number" data-target="610">0</div>
+                    <div class="spec-unit">km</div>
+                    <div class="spec-title">Range</div>
+                    <div class="spec-desc">WLTP</div>
+                </div>
+                
+                <div class="spec-card" data-animate>
+                    <div class="spec-icon">💪</div>
+                    <div class="spec-number" data-target="670">0</div>
+                    <div class="spec-unit">hp</div>
+                    <div class="spec-title">Power</div>
+                </div>
+                
+                <div class="spec-card" data-animate>
+                    <div class="spec-icon">⚡</div>
+                    <div class="spec-number" data-target="850">0</div>
+                    <div class="spec-unit">Nm</div>
+                    <div class="spec-title">Torque</div>
+                </div>
+                
+                <div class="spec-card" data-animate>
+                    <div class="spec-icon">🔌</div>
+                    <div class="spec-number" data-target="800">0</div>
+                    <div class="spec-unit">V</div>
+                    <div class="spec-title">Charging</div>
+                    <div class="spec-desc">Ultra-fast</div>
+                </div>
+            </div>
+            
+            <!-- Efficiency Rings -->
+            <div class="efficiency-grid">
+                <div class="efficiency-card">
+                    <div class="circular-progress" data-percentage="95">
+                        <svg class="progress-ring" viewBox="0 0 100 100">
+                            <circle class="progress-ring-bg" cx="50" cy="50" r="45"></circle>
+                            <circle class="progress-ring-fill" cx="50" cy="50" r="45"></circle>
+                        </svg>
+                        <div class="progress-text">95%</div>
+                    </div>
+                    <div class="efficiency-title">Efficiency</div>
+                    <div class="efficiency-desc">Energy Recovery</div>
+                </div>
+                
+                <div class="efficiency-card">
+                    <div class="circular-progress" data-percentage="88">
+                        <svg class="progress-ring" viewBox="0 0 100 100">
+                            <circle class="progress-ring-bg" cx="50" cy="50" r="45"></circle>
+                            <circle class="progress-ring-fill" cx="50" cy="50" r="45"></circle>
+                        </svg>
+                        <div class="progress-text">88%</div>
+                    </div>
+                    <div class="efficiency-title">Performance</div>
+                    <div class="efficiency-desc">Track Mode Ready</div>
+                </div>
+                
+                <div class="efficiency-card">
+                    <div class="circular-progress" data-percentage="92">
+                        <svg class="progress-ring" viewBox="0 0 100 100">
+                            <circle class="progress-ring-bg" cx="50" cy="50" r="45"></circle>
+                            <circle class="progress-ring-fill" cx="50" cy="50" r="45"></circle>
+                        </svg>
+                        <div class="progress-text">92%</div>
+                    </div>
+                    <div class="efficiency-title">Innovation</div>
+                    <div class="efficiency-desc">Future-Ready Tech</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Car Configurator -->
+    <section class="configurator" id="configure">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Chose your Ferrari now!</h2>
+                <p class="section-subtitle">Personalize every detail of your futuristic vehicle</p>
+            </div>
+            
+            <div class="config-grid">
+                <!-- Car Visualization -->
+                <div class="config-visual">
+                    <div class="config-car-container">
+                            <video class="config-car-video" autoplay muted loop playsinline>
+                               <source src="11.mp4" type="video/mp4">
+                            </video>
+                    </div>
+                    
+                </div>
+                
+                <!-- Configuration Options -->
+                <div class="config-options">
+                    <!-- Color Selection -->
+                    <div class="config-section">
+                        <h3 class="config-title">Exterior Color</h3>
+                        <div class="color-grid">
+                            <div class="color-option active" data-color="silver" data-price="0" data-name="Quantum Silver">
+                                <div class="color-swatch" style="background-color: #C0C0C0;"></div>
+                                <div class="color-info">
+                                    <div class="color-name">Quantum Silver</div>
+                                    <div class="color-price">Included</div>
+                                </div>
+                            </div>
+                            <div class="color-option" data-color="blue" data-price="2500" data-name="Electric Blue">
+                                <div class="color-swatch" style="background-color: #1509c7ea;"></div>
+                                <div class="color-info">
+                                    <div class="color-name">Royal Blue</div>
+                                    <div class="color-price">₱5,200,000</div>
+                                </div>
+                            </div>
+                            <div class="color-option" data-color="magenta" data-price="3000" data-name="Neon Magenta">
+                                <div class="color-swatch" style="background-color: #ff0000;"></div>
+                                <div class="color-info">
+                                    <div class="color-name">Royal Red</div>
+                                    <div class="color-price">₱3,800,000</div>
+                                </div>
+                            </div>
+                            <div class="color-option" data-color="black" data-price="1500" data-name="Void Black">
+                                <div class="color-swatch" style="background-color: #000000;"></div>
+                                <div class="color-info">
+                                    <div class="color-name">Void Black</div>
+                                    <div class="color-price">₱3,100,000</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Wheels Selection -->
+                    <div class="config-section">
+                        <h3 class="config-title">Wheels & Tires</h3>
+                        <div class="wheel-options">
+                            <div class="wheel-option active" data-price="0" data-name="19&quot; Aero Wheels">
+                                <div class="wheel-name">19" Aero Wheels</div>
+                                <div class="wheel-price">Included</div>
+                            </div>
+                            <div class="wheel-option" data-price="4000" data-name="20&quot; Sport Wheels">
+                                <div class="wheel-name">20" Sport Wheels</div>
+                                <div class="wheel-price">₱800,000</div>
+                            </div>
+                            <div class="wheel-option" data-price="6500" data-name="21&quot; Performance Wheels">
+                                <div class="wheel-name">21" Performance Wheels</div>
+                                <div class="wheel-price">₱500,000</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Interior Selection -->
+                    <div class="config-section">
+                        <h3 class="config-title">Interior</h3>
+                        <div class="interior-options">
+                            <div class="interior-option active" data-price="0" data-name="Pure Black">
+                                <div class="interior-name">Pure Black</div>
+                                <div class="interior-price">Included</div>
+                            </div>
+                            <div class="interior-option" data-price="2000" data-name="Arctic White">
+                                <div class="interior-name">Arctic White</div>
+                                <div class="interior-price">200,000</div>
+                            </div>
+                            <div class="interior-option" data-price="3500" data-name="Crimson Red">
+                                <div class="interior-name">Crimson Red</div>
+                                <div class="interior-price">₱600,000</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button class="btn btn-primary btn-large btn-full" id="config-reserve-btn">
+                        Reserve Now 
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title features-title">Advanced Technology</h2>
+                <p class="section-subtitle">Every innovation designed for the extraordinary</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card" data-animate>
+                    <div class="feature-icon">🤖</div>
+                    <h3 class="feature-title">Autonomous Driving</h3>
+                    <p class="feature-desc">Level 4 autonomous capabilities with advanced AI navigation</p>
+                </div>
+                
+                <div class="feature-card" data-animate>
+                    <div class="feature-icon">📱</div>
+                    <h3 class="feature-title">Holographic Display</h3>
+                    <p class="feature-desc">3D holographic instrument cluster and infotainment system</p>
+                </div>
+                
+                <div class="feature-card" data-animate>
+                    <div class="feature-icon">🧠</div>
+                    <h3 class="feature-title">Neural Interface</h3>
+                    <p class="feature-desc">Direct neural control for ultimate vehicle interaction</p>
+                </div>
+                
+                <div class="feature-card" data-animate>
+                    <div class="feature-icon">⚡</div>
+                    <h3 class="feature-title">Quantum Charging</h3>
+                    <p class="feature-desc">Revolutionary quantum charging technology</p>
+                </div>
+                
+                <div class="feature-card" data-animate>
+                    <div class="feature-icon">💺</div>
+                    <h3 class="feature-title">Bio-Adaptive Interior</h3>
+                    <p class="feature-desc">Interior that adapts to your biometric data</p>
+                </div>
+                
+                <div class="feature-card" data-animate>
+                    <div class="feature-icon">🎤</div>
+                    <h3 class="feature-title">AI Assistant</h3>
+                    <p class="feature-desc">Advanced AI companion for seamless interaction</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">FERRARI</div>
+                <p class="footer-text">The Future of Motion. Available 2025.</p>
+                <div class="footer-links">
+                    <span>© 2024 FERRARI Motors</span>
+                    <span>•</span>
+                    <span>Privacy Policy</span>
+                    <span>•</span>
+                    <span>Terms of Service</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Sticky CTA -->
+    <div class="sticky-cta" id="sticky-cta">
+        <button class="btn btn-primary btn-large" id="sticky-reserve-btn">Book Test Drive</button>
+    </div>
+
+    <!-- Reservation Modal -->
+    <div class="modal-overlay" id="modal-overlay">
+        <div class="modal" id="reservation-modal">
+            <div class="modal-header">
+                <div class="modal-title-section">
+                    <h3 class="modal-title">Reserve Your Drive</h3>
+                    <p class="modal-subtitle">Experience the future of mobility</p>
+                </div>
+                <button class="modal-close" id="modal-close">&times;</button>
+            </div>
+            
+            <div class="modal-content">
+                <!-- Form -->
+                <form class="reservation-form" id="reservation-form">
+                    <div class="form-group">
+                        <label for="name" class="form-label">
+                            <span class="label-icon">👤</span>
+                            Full Name
+                        </label>
+                        <input type="text" id="name" name="name" class="form-input" placeholder="Enter your full name" required>
+                        <div class="form-error" id="name-error"></div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email" class="form-label">
+                            <span class="label-icon">✉️</span>
+                            Email Address
+                        </label>
+                        <input type="email" id="email" name="email" class="form-input" placeholder="your.email@example.com" required>
+                        <div class="form-error" id="email-error"></div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone" class="form-label">
+                            <span class="label-icon">📞</span>
+                            Phone Number
+                        </label>
+                        <input type="tel" id="phone" name="phone" class="form-input" placeholder="+1 (555) 000-0000" required>
+                        <div class="form-error" id="phone-error"></div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="date" class="form-label">
+                            <span class="label-icon">📅</span>
+                            Preferred Test Drive Date
+                        </label>
+                        <input type="date" id="date" name="date" class="form-input" required>
+                        <div class="form-error" id="date-error"></div>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-large btn-full" id="submit-btn">
+                        <span class="btn-text">Confirm Reservation</span>
+                        <div class="btn-loader" id="btn-loader"></div>
+                    </button>
+                </form>
+                
+                <!-- Success Message -->
+                <div class="success-message" id="success-message" style="display: none;">
+                    <div class="success-icon">✅</div>
+                    <h4 class="success-title">Reservation Confirmed!</h4>
+                    <p class="success-text">
+                        Thank you for your interest in the Ferrari. Our team will contact you within 24 hours to schedule your exclusive test drive experience.
+                    </p>
+                    <p class="success-id">Reservation ID: #<span id="reservation-id"></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
